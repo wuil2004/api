@@ -1,0 +1,107 @@
+/* Estilo general */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #495057;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+ul li:hover {
+    background-color: #e9ecef;
+    transform: translateY(-2px);
+}
+
+#notebook-content {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #dee2e6;
+    background-color: #f1f3f5;
+    border-radius: 5px;
+}
+
+#content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #e9ecef;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    color: #212529;
+    font-family: "Courier New", monospace;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+/* Diseño para el elemento <pre> */
+pre {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: #212529;
+    overflow-x: auto;
+}
+
+pre:hover {
+    background-color: #e9ecef;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #868e96;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #495057;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #212529;
+}
